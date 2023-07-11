@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet,View} from 'react-native';
 import React from 'react';
 import MapView, {PROVIDER_GOOGLE} from 'react-native-maps';
 import screenValue from '../utils/ScreenSize';
@@ -8,7 +8,7 @@ import { styled } from "nativewind";
 const MyMapView = ({children}) => {
 const StyledView = styled(View)
   return (
-    <styledView className="width:100 height:Dimensions.get(dim:'screen').height">
+ 
     <MapView
       style={styles.mapview}
       provider={PROVIDER_GOOGLE}
@@ -21,7 +21,7 @@ const StyledView = styled(View)
       showsUserLocation>
       {children}
     </MapView>
-  </styledView>
+
   );
 };
 

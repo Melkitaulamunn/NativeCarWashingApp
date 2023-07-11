@@ -12,11 +12,14 @@ import {
   TextInput,
   useColorScheme,
   View,
+  Alert
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-import database from '@react-native-firebase/database';
+
+
+
 
 import auth, {FirebaseAuthTypes} from '@react-native-firebase/auth';
 import FlashMessage, {
@@ -146,7 +149,7 @@ function Login(): JSX.Element {
     const reference = database().ref('users');
 
     reference.once('value').then(snapshot => {
-      alert(JSON.stringify(snapshot.val()));
+      Alert.alert(JSON.stringify(snapshot.val()));
     });
   };
 
