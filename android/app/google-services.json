@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1087373851409",
+    "project_id": "carcleaning-390800",
+    "storage_bucket": "carcleaning-390800.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087373851409:android:d2c20db8259c535725aab0",
+        "android_client_info": {
+          "package_name": "com.loginnativem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087373851409-vcndlgfnkvmkmar0egc1o681khuer311.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkhwL-zeHyaVipb2aYkoZ3ZYNYTnTPoH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087373851409-vcndlgfnkvmkmar0egc1o681khuer311.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1087373851409-p2418ro1vsipdurcr24cr211oo2d799f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.LoginNativem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
